@@ -43,6 +43,13 @@ a {
         line-height: 2.5rem;
         font-size: small;
     }
+
+    .experiencia, .estudios {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: small;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -67,3 +74,19 @@ a {
         margin: 0 3rem;
     }
 }       
+
+.experiencia, .estudios {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: azure;
+}
+
+.container-experiencia, .container-estudios {
+    width: 100%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    font-size: large;
+    margin: 8rem;
+}

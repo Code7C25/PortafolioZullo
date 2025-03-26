@@ -54,5 +54,16 @@ a {
         gap: 2rem;
         justify-content: center;
     }
-
 }
+
+@media (min-width: 1024px) {
+    .titulo {
+        justify-content: flex-start;
+    }
+
+    .navigation {
+        gap: 3rem;
+        justify-content: flex-end;
+        margin: 0 3rem;
+    }
+}       

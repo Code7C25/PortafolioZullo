@@ -152,7 +152,7 @@ a {
 
 .experiencia, .estudios {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     padding: 2rem;
     color: black;
 }

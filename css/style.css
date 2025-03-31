@@ -1,3 +1,78 @@
+
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #1a1a1a; /* Dark background */
+    color: #e6e6e6; /* Light text */
+}
+
+body.dark-theme h1, 
+body.dark-theme h2 {
+    color: #66b2ff; /* Light blue for headings */
+}
+
+body.dark-theme h3, 
+body.dark-theme h4, 
+body.dark-theme h5, 
+body.dark-theme h6 {
+    color: #cccccc; /* Light gray for subheadings */
+}
+
+body.dark-theme p {
+    color: #cccccc;
+}
+
+body.dark-theme .navigation a {
+    color: #66b2ff; /* Light blue for navigation links */
+}
+
+body.dark-theme .container-sobremi, 
+body.dark-theme .container-experiencia, 
+body.dark-theme .container-estudios {
+    background-color: #333333; /* Dark gray for containers */
+    border: 1px solid #4d4d4d; /* Slightly lighter gray border */
+}
+
+body.dark-theme a:hover {
+    color: #99ccff; /* Lighter blue on hover */
+}
+
+body.dark-theme a {
+    color: #e6e6e6; /* Light text for links */
+}
+
+/* Set the font to Cascadia Code and apply a light blue color scheme */
+body {
+    font-family: 'Cascadia Code', monospace;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #003366; /* Dark blue text */
+}
+
+h1, h2 {
+    color: #00509e; /* Medium blue for headings */
+}
+
+h3, h4, h5, h6 {
+    color: black; /* Black for subheadings */
+}
+
+p {
+    color: black;
+}
+
+.navigation a {
+    color: #007acc; /* Bright blue for navigation links */
+}
+
+.container-sobremi, .container-experiencia, .container-estudios {
+    background-color: #cce7ff; /* Very light blue for containers */
+    border: 1px solid #99d6ff; /* Light blue border */
+}
+
+a:hover {
+    color: #004080; /* Darker blue on hover */
+}
+
 .navigation {
   display: flex;
   gap: 3rem;
@@ -22,7 +97,7 @@ a {
     margin-top: 5rem;
     line-height: 2.5rem;
     font-size: large;
-    color: azure;
+    color: black;
 }
 
 @media (max-width: 767px) {
@@ -79,7 +154,7 @@ a {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    color: azure;
+    color: black;
 }
 
 .container-experiencia, .container-estudios {

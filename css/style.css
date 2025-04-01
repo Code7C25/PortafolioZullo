@@ -1,44 +1,21 @@
-
-
-/* Dark theme styles */
-body.dark-theme {
-    background-color: #1a1a1a; /* Dark background */
-    color: #e6e6e6; /* Light text */
+header {
+    margin: auto;
+    background-color: #004080;
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
-body.dark-theme h1, 
-body.dark-theme h2 {
-    color: #66b2ff; /* Light blue for headings */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body.dark-theme h3, 
-body.dark-theme h4, 
-body.dark-theme h5, 
-body.dark-theme h6 {
-    color: #cccccc; /* Light gray for subheadings */
-}
-
-body.dark-theme p {
-    color: #cccccc;
-}
-
-body.dark-theme .navigation a {
-    color: #66b2ff; /* Light blue for navigation links */
-}
-
-body.dark-theme .container-sobremi, 
-body.dark-theme .container-experiencia, 
-body.dark-theme .container-estudios {
-    background-color: #333333; /* Dark gray for containers */
-    border: 1px solid #4d4d4d; /* Slightly lighter gray border */
-}
-
-body.dark-theme a:hover {
-    color: #99ccff; /* Lighter blue on hover */
-}
-
-body.dark-theme a {
-    color: #e6e6e6; /* Light text for links */
+.fnt {
+    color:#99d6ff;
 }
 
 /* Set the font to Cascadia Code and apply a light blue color scheme */
@@ -61,7 +38,7 @@ p {
 }
 
 .navigation a {
-    color: #007acc; /* Bright blue for navigation links */
+    color:#99d6ff; /* Bright blue for navigation links */
 }
 
 .container-sobremi, .container-experiencia, .container-estudios {
@@ -70,7 +47,7 @@ p {
 }
 
 a:hover {
-    color: #004080; /* Darker blue on hover */
+    color: #cce7ff; /* Darker blue on hover */
 }
 
 .navigation {
@@ -90,6 +67,11 @@ a {
     justify-content: center;
 }
 
+.experiencia, .estudios {
+    display: flex;
+    color: black;
+}
+
 .container-sobremi {
     display: flex;
     width: 50%;
@@ -98,6 +80,20 @@ a {
     line-height: 2.5rem;
     font-size: large;
     color: black;
+}
+
+.container-experiencia, .container-estudios {
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: large;
+    margin: 8rem;
+}
+
+.container-proyectos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
 }
 
 @media (max-width: 767px) {
@@ -149,19 +145,3 @@ a {
         margin: 0 3rem;
     }
 }       
-
-.experiencia, .estudios {
-    display: flex;
-    justify-content:space-between;
-    padding: 2rem;
-    color: black;
-}
-
-.container-experiencia, .container-estudios {
-    width: 100%;
-    padding: 2rem;
-    margin-top: 5rem;
-    line-height: 2.5rem;
-    font-size: large;
-    margin: 8rem;
-}
